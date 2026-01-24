@@ -1,0 +1,11 @@
+liczba = int(input("Podaj liczbę dziesiętną: "))
+
+if liczba == 0:
+    print("Liczba binarna: 0")
+else:
+    binarna = ""
+    while liczba > 0:
+        reszta = liczba % 2        
+        binarna = str(reszta) + binarna  # dopisujemy resztę na początek
+        liczba = liczba // 2       
+    print("Liczba binarna:", binarna)
