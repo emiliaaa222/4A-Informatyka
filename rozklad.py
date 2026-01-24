@@ -10,5 +10,3 @@ def rozklad(n):
  
 wartosc = int(input("Podaj liczbę: "))
 rozklad(wartosc)
-
- 
