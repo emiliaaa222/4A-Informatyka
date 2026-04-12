@@ -1,0 +1,17 @@
+def bisekcja(a, b):
+    for i in range(5): 
+        s = (a + b) / 2
+
+        if (s*s - 4) == 0:
+            return s
+
+        if (a*a - 4) * (s*s - 4) < 0:
+            b = s
+        else:
+            a = s
+
+    return s
+
+wynik = bisekcja(0, 3)
+
+print("Wynik:", wynik)
