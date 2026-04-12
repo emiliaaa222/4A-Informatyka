@@ -7,5 +7,4 @@ def oblicz_sume(n):
     return suma
 
 wynik = oblicz_sume(5)
-
 print("Suma liczb od 1 do 5 wynosi:", wynik)
