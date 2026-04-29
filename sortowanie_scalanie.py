@@ -6,5 +6,4 @@ def merge_sort(t):
     r = merge_sort(t[m:])
     return sorted(l + r)
  
- 
 print(merge_sort([5, 2, 9, 1]))
